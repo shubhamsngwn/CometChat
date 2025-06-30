@@ -77,7 +77,7 @@ export default function Footer() {
   return (
     <div className="bg-gradient-to-br from-[#0f0f1c] to-[#1a1a2e] footer-cmn font-fm">
       <div className="text-left hding font-sans">
-        <h3 className="heading pt-5 pl-10">a
+        <h3 className="heading pt-5 pl-10">
           comet<b>chat</b>
         </h3>
       </div>
