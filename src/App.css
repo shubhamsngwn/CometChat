@@ -1,0 +1,104 @@
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+
+.log-btn {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mid-btns a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+.mid-btns a:hover {
+  cursor: pointer;
+}
+
+.custom-transition {
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advantage-card {
+  border: 2px solid transparent;
+  transition: border-color 0.5s ease, transform 0.5s ease;
+  transform: scale(1);
+}
+
+.advantage-card:hover {
+  border-color: orange;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.start-free-btns {
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.bdr form input {
+  border-radius: 16px;
+  border: 0.5px solid white;
+}
+
+.cmn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.icons {
+  left: 3rem;
+}
+
+.social {
+  right: 3rem;
+}
+
+.options {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.icns {
+  border: 0.5px solid white;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.footer-cmn {
+  color: white;
+}
+
+.anchors {
+  text-decoration: none;
+  color: white;
+}
+
+.gry-clr {
+  color: gray;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.content-heading {
+  margin-top: 2rem;
+}
+
+.hding h3{
+  margin-left: 2rem;
+}
+
+.font-fm {
+  font-family: sans-serif;
+}
